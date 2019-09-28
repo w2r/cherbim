@@ -1,14 +1,5 @@
 # cherbim
-```
-var SMS=global('SMSRB');
-var url="https://api.telegram.org/bot703106170:AAE2RJ57xjVsX6mRVqJiqZk_wilfC7fCgtg/sendMessage?chat_id=561661782&text="+SMS;
-var method = "GET" ;// or"POST"/"PUT"/"DELETE"
-var xhttp = new XMLHttpRequest();
-xhttp.open( method, url, false );
-xhttp.send(); //if method was"POST", put info in the () here
-if( xhttp.status == 200 ) { //successfulhttp request
-var response = xhttp.responseText; }
-```
+
 
 ### 此教程仅适用于安卓系统
 
