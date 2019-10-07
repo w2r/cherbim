@@ -35,7 +35,7 @@ https://api.telegram.org/bot703106170:AAE2RJ57xjVsX6mRVqJiqZk_wil*******tg/sendM
 
 ```
 var SMS=global('SMSRB');
-var url="https://api.telegram.org/bot703106170:AAE2RJ57xjVsX6mRVqJiqZk_wilfC7fCgtg/sendMessage?chat_id=561661782&text="+SMS;
+var url="https://api.telegram.org/bot703106170:AAE2RJ57xjVsX6mRVqJiqZk_w*****Cgtg/sendMessage?chat_id=5616***782&text="+SMS;
 var method = "GET" ;// or"POST"/"PUT"/"DELETE"
 var xhttp = new XMLHttpRequest();
 xhttp.open( method, url, false );
