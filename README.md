@@ -5,23 +5,27 @@
 
 #### 操作步骤：
 
-##### 1. 下载tasker 破解版
+##### 1. 下载tasker 
 
-自己百度搜索下载 ，便捷食用链接：https://drive.google.com/file/d/1VqJcsUactP-x6l3nKXoQPhQFCUlOnFnv/view?usp=sharing
+可以自己百度搜索下载破解版 ，正版链接：https://drive.google.com/file/d/1VqJcsUactP-x6l3nKXoQPhQFCUlOnFnv/view?usp=sharing
 
 ##### 2. 申请tg机器人
 
 第一步：Telegram上关注botfather，申请一个bot(机器人)。关注之后发送`/newbot`创建新bot，起个好听的名字，之后会让你再起个username，最后你会得到bot api，然后记得关注这个机器人
 
-第二步：关注`userinfobot`获得自己的id
+第二步：浏览器打开以下链接，其中bot api需要换成第一步获得的bot api，然后在网页寻找你的id，类似于561661***
 
-第三步：测试是否收到短信，把前面获得的api和id替换到下方链接中，格式一定要和链接中格式一样的                                                                                         
+~~~
+https://api.telegram.org/bot981790366:AAHPBpLzVZXzvRiAV4jx7HHJ3Z*********0SI/getUpdates
+~~~
+
+第三步：测试是否收到短信，把前面获得的bot api和id替换到下方链接中，格式一定要和链接中格式一样的                                                                                         
 
 ```
-https://api.telegram.org/bot703106170:AAE2RJ57xjVsX6mRVqJiqZk_wilfC7fCgtg/sendMessage?chat_id=561661782&text=你好
+https://api.telegram.org/bot703106170:AAE2RJ57xjVsX6mRVqJiqZk_wil*******tg/sendMessage?chat_id=56166******&text=你好
 ```
 
-第四部：浏览器输入以上网址，这时tg机器人会收到“你好”内容，若不出现内容，大概率是api和id不对
+第四部：浏览器输入上面链接，这时tg机器人会收到“你好”内容，若不出现内容，大概率是api和id不对
 
 ##### 3. 配置tasker
 
